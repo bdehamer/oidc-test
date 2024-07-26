@@ -1,0 +1,7 @@
+name: 'Test OIDC Retrieval'
+description: 'Testing of OIDC token retrieval'
+author: 'bdehamer'
+
+runs:
+  using: node20
+  main: ./dist/index.js
